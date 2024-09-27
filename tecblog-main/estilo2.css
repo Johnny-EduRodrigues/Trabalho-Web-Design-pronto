@@ -1,0 +1,138 @@
+/*Limpar fomrataçõs padrão */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-size: 1em;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background: #e6e6e6;
+}
+
+/*Layout */
+#area-cabecalho {
+  background-color: #6bad6f;
+  padding: 15px;
+  text-align: center;
+}
+
+#area-logo, #area-menu {
+  padding: 10px;
+}
+
+#area-principal{
+  width: 920px;
+  margin: 0 auto; /* auto paramargm autoática */
+}
+
+#area-postagens, #area-lateral{
+  background: #5c9660;
+}
+
+#area-postagens{
+  width: 660px;
+  float:left;
+}
+
+#area-lateral{
+  width: 240px;
+  float: right;
+}
+
+.postagem{
+  padding: 20px;
+  margin-bottom: 20px;
+  background: white;
+
+}
+
+#rodape {
+  clear: both;
+  text-align: center;
+  padding: 15px;
+  background: #CCC;
+}
+
+#leia{
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding: 3px;
+  background-color: rgb(14, 58, 10);
+
+    }
+
+
+/*Formatação do menu */
+.sear{
+  text-decoration: none;
+}
+.sear:link, .sear:visited{
+  color: #FFF;
+  padding: 8px 12px;
+}
+
+.sear:hover{
+  color: #000000;
+  background: #ddffbd;
+
+}
+
+/*Formatação em geral */
+h1{
+  color: #4e4e4e;
+  font-size: 2.5em;
+  }
+
+.branco {
+  color: white;
+}
+
+h2{
+  padding: 20px;
+  text-align: center;
+}
+
+#iphonetext{
+  text-align: justify;
+}
+
+.menu2{
+  text-align: center;
+}
+
+#area-lateral2{
+  width: 240px;
+  float: right;
+}
+
+#area-lateral2{
+  background: #a3a3a3;
+}
+
+.menulink{
+  height: 10px;
+}
+
+
+
+.acapas{
+  border: 4px solid rgb(53, 128, 51);
+  background-color: rgb(201, 255, 184);
+
+  padding: 10px;
+  
+transition: 1s; 
+font-size: 18px;
+  cursor: pointer;
+}
+
+.acapas:hover { 
+background-color: rgb(151, 248, 151);
+border-color: #ff9292;
+transition: 1s;
+}
+
+.ab{
+  text-decoration: none;
+}
